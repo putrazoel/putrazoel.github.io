@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan');*/
+* {padding: 0; margin: 0;}
+
+body{
+  font-family: 'Baloo Bhaijaan', cursive;
+  color: #0984E3;
+  background-color: #F5F6FA;
+}
+
+.text{
+  font-size: 95px;
+  padding: 0 35px;
+  float: left;
+  margin-top: 20px;
+}
+
+.text1{
+  background-color: #0984E3;
+  color: #f5f6fa;
+  border-radius: 0 85px 85px 0;
+}
+
+.text2{
+  color: #0984E3;
+}
+
+.text{
+  animation-name: slide;
+  animation-duration: 4s;
+}
+
+@keyframes slide{
+  0% { opacity: 0; margin-left: -250px;}
+  100% { opacity: 1; margin-left: 0;}
+}
