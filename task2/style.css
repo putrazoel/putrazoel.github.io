@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+h1,h2,p,a{
+    font-family: 'Lucida sans';
+}
+
+
 #wrap{
     width: 1400px;
     height: auto;
@@ -11,7 +16,7 @@
 .banner{
     width: 1400px;
     height: 670px;
-    background-image: url("scenic-view-of-night-sky-3934512.png");
+    background-image: url("banner.jpg");
     display: flow-root;
 }
 
@@ -38,6 +43,7 @@
     margin-right: 20px;
     font-family: 'Times New Roman';
     font-weight: bold;
+    font-size: 14px;    
 }
 
 #header a{
@@ -58,10 +64,14 @@
     line-height: 1.5;
 }
 
+.textarea1 p{
+    color: #787878;
+}
+
 .textarea1 .button1{
     width: 168px;
     height: 45px;
-    background-color: #4B8FEC;
+    background-color: #10c9c3;
     margin-top: 30px;
     cursor: pointer;
 }
@@ -70,8 +80,9 @@
     padding-top: 13px;
     padding-left: 22px;
     font-size: 12px;
-    color: #000000;
+    color: #FFFFFF;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .content2{
@@ -83,11 +94,12 @@
 
 .content2 h2{
     text-align: center;
+    font-size: 38px;
 }
 
 .content2 p{
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 .content2 .textarea2{
@@ -101,8 +113,234 @@
     margin-top: 20px;
 }
 
+.textarea2 p{
+    font-size: 15px;
+    color: #787878;
+}
+
 .content3{
     width: 1400px;
     height: 570px;
     background-color: aqua;
+}
+
+.content3 #content31{
+    width: 700px;
+    height: 570px;
+    background-color: #f8f9f9;
+    float: left;
+}
+
+.content3 #content32{
+    width: 700px;
+    height: 570px;
+    background-image: url("image1.jpg");
+    float: right;
+}
+
+.textarea3 {
+    padding: 70px;
+    padding-top: 100px;
+}
+
+.textarea3 p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.content4{
+    width: 1400px;
+    height: 240px;
+    background-color: #18FF24;
+}
+
+.content4 #content41, #content42, #content43, #content44{
+    width: 350px;
+    height: 240px;
+    background-color: #10c9c3;
+    float: left;
+}
+
+#content41 .icon1{
+    width: 40px;
+    height: 36px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+#content41 .text1{
+    width: 175px;
+    height: 60px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 90px;
+}
+
+#content42 .icon2{
+    width: 40px;
+    height: 36px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+#content42 .text2{
+    width: 175px;
+    height: 60px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 90px;
+}
+
+#content43 .icon3{
+    width: 40px;
+    height: 36px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+#content43 .text3{
+    width: 175px;
+    height: 60px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 90px;
+}
+
+#content44 .icon4{
+    width: 40px;
+    height: 36px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+#content44 .text4{
+    width: 175px;
+    height: 60px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 90px;
+}
+
+.text1, .text2, .text3, .text4 p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#content41, #content42, #content43, #content44 p{
+    color: #FFFFFF;
+}
+
+.content5{
+    width: 1400px;
+    height: 600px;
+    background-color: red;
+}
+
+.content5 .images1, .images2{
+    width: 1400px;
+    height: 300px;
+    background-color: #000000;
+    display: flex;
+}
+
+.imagebox:hover{
+    background-image: url("icon5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content5 .images1 img:hover{
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.content5 .images2 img:hover{
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.content6{
+    width: 1400px;
+    height: 105px;
+    background-color: #f5f5f5;
+    display: flex;
+}
+
+.content6 h3{
+    margin: auto;
+    font-size: 12px;
+    color: #8e8e8e;
+    cursor: pointer;
+}
+
+.content7{
+    width: 1400px;
+    height: 930px;
+    background-color: #ffffff;
+    display: flow-root;
+}
+
+.content7 #textarea{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#textarea p{
+    line-height: 1.5;
+}
+
+.content7 #imagearea:hover{
+    background-image: url("button_play.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content7 img{
+    margin-left: 100px;
+}
+
+.content7 img:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.content8{
+    width: 1400px;
+    height: 535px;
+    background-color: #f5f5f5;
+}
+
+.content8 img{
+    margin-left: 16px;
+}
+
+.content9{
+    width: 1400px;
+    height: 500px;
+    background-color: #10c9c3;
+    display: flow-root;
+}
+
+.content9 p{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.content9 .p1{
+    margin-top: 30px;
+    font-size: 9px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.content9 img{
+    margin-left: 680px;
+    margin-top: 110px;
 }
