@@ -46,6 +46,10 @@ h1,h2,p,a{
     font-size: 14px;    
 }
 
+#header a:hover{
+    color: #10c9c3;
+}
+
 #header a{
     text-decoration: none;
     color: #000000;
@@ -343,4 +347,22 @@ h1,h2,p,a{
 .content9 img{
     margin-left: 680px;
     margin-top: 110px;
+}
+
+.content10{
+    width: 1400px;
+    height: 195px;
+    background-color: #FFFFFF;
+    display: flow-root;
+}
+
+.content10 ul{
+    display: flex;
+    margin-left: 100px;
+    list-style: none;
+    margin-top: 70px;
+}
+
+.content10 li{
+    margin-right: 150px;
 }
