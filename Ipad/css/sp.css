@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 414px){
+    body {
+	min-width: 414px;
+}
+    
+    .wrap{
+        width: 414px;
+    }
+    
+    .pc-only, .ipad-only{
+        display: none;
+    } 
+    
+    .banner{
+        width: 100%;
+        background-image: url("../img/banner_sp.jpg.png");
+    }
+    
+/*Content0*/
+    .content0 .img {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .content0 img{
+        margin-right: 20px;
+    }
+    
+    .bb{
+        width: 90%;
+        margin-left: 20px;
+    }
+    
+    .navsp {
+        margin-right: 0px;
+        margin-top: -20px;    
+    }
+    
+    .navmenu {
+        text-align: justify;
+    }
+    
+    .navmenu ul{
+        margin: auto;
+        padding-left: 100px;
+    }
+/*Content0*/
+    
+/*Content1*/
+    .content1{
+        width: 414px;
+    }
+    
+    .textarea1{
+        padding-top: 90px;
+    }
+    
+    .textarea1 h1{
+        font-size: 32px;
+    }
+    
+    #txt1 p{
+        font-size: 16px;
+        line-height: 21pt;
+        letter-spacing: 1px;
+        padding: 0px;
+    }
+    
+    .sp-only{
+        display: inline-block;
+    }
+/*Content1*/
+    
+/*Content2*/
+    .features{
+        height: auto;
+        padding-bottom: 40px;
+        padding: 62px 50px;
+    }
+    
+    .boxcnt{
+        float: none;
+    }
+/*Content2*/
+    
+/*Content3*/
+    .content3 .imagebox2, .imagebox3, .imagebox4, .imagebox5, .imagebox6, .imagebox7, .imagebox8, .imagebox9{
+        height: 350px;
+        background-color: #d44140;
+        display: flex;
+        line-height: 0;
+        width: 414px;
+    }
+    
+    .content3 .imagebox2 img:hover{
+        cursor: pointer;
+        opacity: 0.2;
+    }
+    
+    .content3 .imagebox3 img:hover{
+        cursor: pointer;
+        opacity: 0.2;
+    }
+    
+    .content3 .imagebox4 img:hover{
+        cursor: pointer;
+        opacity: 0.2;
+    }
+    
+    .content3 .imagebox5 img:hover{
+        cursor: pointer;
+        opacity: 0.2;
+    }
+    
+    .content3 .imagebox6 img:hover{
+        cursor: pointer;
+        opacity: 0.2;
+    }
+    
+    .content3 .imagebox7 img:hover{
+        cursor: pointer;
+        opacity: 0.2;
+    }
+    
+    .content3 .imagebox8 img:hover{
+        cursor: pointer;
+        opacity: 0.2;
+    }
+    
+    .content3 .imagebox9 img:hover{
+        cursor: pointer;
+        opacity: 0.2;
+    }
+    
+/*Content3*/
+    
+/*Content4*/
+    .content4{
+        width: 100%;
+        height: auto;
+        background-color: #FFFFFF;
+    }
+    
+    .content4 .layout{
+        margin: 0;
+        margin-top: 100px;
+    }
+    
+    .profilbox{
+        clear: both;
+    }
+/*Content4*/
+    
+/*Content5*/
+    .content5{
+        width: 414px;
+        height: auto;
+        position: relative;
+	    overflow: hidden;
+    }
+    
+    .mySlide-sp img {
+        width: 414px;
+		height: 207;
+	}
+    
+    .mySlide-sp{
+        width: 414px;
+    }
+    
+    .quote {
+        width: 100%;
+        padding-right: 20px;
+	}
+    
+    .mySlide-sp{
+        display: none;
+    }
+    
+    .quote p {
+        font-size: 26px;
+        line-height: 35px;
+        height: 133px;
+        margin-bottom: 70px;
+    }
+/*Content5*/
+    
+/*Content6*/
+    
+    .content6{
+        width: 100%;
+        height: 380px;
+    }
+    
+    .inner h1{
+        font-size: 28px;
+    }
+    
+    .button2{
+        width: 227px;
+        margin-top: 43px;
+        letter-spacing: 2px;
+    }
+/*Content6*/
+    
+/*Footer*/
+    .footer{
+        padding-bottom: 10px;
+    }
+    
+    .footerbox{
+        margin-left: 150px;
+    }
+    
+    .footerbox .share{
+        margin-left: -7px;
+    }
+    
+    .footerbox .about{
+        margin-left: -18px;
+    }
+    
+    .sosmed{
+        width: 150px;
+        margin-left: 0;
+    }
+    
+    .footerbox .about2{
+        width: 340px;
+        margin-left: -105px;
+    }
+    
+/*Footer*/
+    
+}
