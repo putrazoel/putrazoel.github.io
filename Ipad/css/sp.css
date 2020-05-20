@@ -152,6 +152,10 @@
     .profilbox{
         clear: both;
     }
+    
+    .profilbox h4, p{
+        text-align: center;
+    }
 /*Content4*/
     
 /*Content5*/
