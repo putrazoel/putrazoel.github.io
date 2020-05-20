@@ -150,7 +150,7 @@
         
       <div class="content5">
 		<div class="mySlides">
-			<img src="image19.png" width="950" height="500" alt=""/> 
+			<img src="img/image19.png" width="950" height="500" alt=""/> 
 			<div class="quote">
 				<p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
 				<span class="name">Susan Sims, Interaction Designer at XYZ</span>
@@ -162,7 +162,7 @@
 			</div>
 		</div>
 		<div class="mySlides">
-			<img src="image20.png" width="950" height="500" alt=""/> 
+			<img src="img/image20.png" width="950" height="500" alt=""/> 
 			<div class="quote">
 				<p>"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur...."</p>
 				<span class="name">Susan Sims, Interaction Designer at XYZ</span>
@@ -625,17 +625,24 @@
     
 </body>
 <script>
-var slideIndex = 1;
+var slideIndex = 3;
 showSlides(slideIndex);
+showSlides1(slideIndex);
+showSlides2(slideIndex);
+
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
+  showSlides1(slideIndex += n);
+  showSlides2(slideIndex += n);
 }
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
+  showSlides1(slideIndex = n);
+  showSlides2(slideIndex = n);
 }
-
+ 
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -643,7 +650,7 @@ function showSlides(n) {
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "contents";  
+      slides[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
@@ -652,7 +659,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
     
-function showSlides(n) {
+function showSlides1(n) {
   var i;
   var slides = document.getElementsByClassName("mySlide-ipad");
   var dots = document.getElementsByClassName("dot");
@@ -668,7 +675,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
     
-function showSlides(n) {
+function showSlides2(n) {
   var i;
   var slides = document.getElementsByClassName("mySlide-sp");
   var dots = document.getElementsByClassName("dot");
