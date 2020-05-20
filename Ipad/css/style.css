@@ -395,6 +395,7 @@ table {
 .mySlides img{
 	width: 50%;
 	float: left;
+    height: 500px;
 }
 
 .quote{
@@ -430,7 +431,6 @@ table {
 .mySlides {
     display: none;
 }
-
 
 /* Next & previous buttons */
 .prev, .next {
